@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.stApp {
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-section {
+    background-image: url('https://images.unsplash.com/photo-1534527489986-3e3394ca569c');
+    background-size: cover;
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.calculator-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.interior-section {
+    background-image: url('https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c');
+    background-position: center;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.modern-arch {
+    background-image: url('https://images.unsplash.com/photo-1518436127045-3367819540bf');
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.comparison-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
