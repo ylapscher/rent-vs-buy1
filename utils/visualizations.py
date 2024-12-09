@@ -6,15 +6,15 @@ def create_cost_comparison_chart(buying_df, renting_df):
     fig = go.Figure()
     
     fig.add_trace(go.Scatter(
-        x=buying_df.index,
-        y=buying_df['Cumulative_Cost'],
+        x=buying_df.index.astype(float),
+        y=buying_df['Cumulative_Cost'].astype(float),
         name='Buying',
         line=dict(color='#4A4036', width=2)
     ))
     
     fig.add_trace(go.Scatter(
-        x=renting_df.index,
-        y=renting_df['Cumulative_Cost'],
+        x=renting_df.index.astype(float),
+        y=renting_df['Cumulative_Cost'].astype(float),
         name='Renting',
         line=dict(color='#8B7355', width=2)
     ))
@@ -53,8 +53,8 @@ def create_equity_chart(buying_df):
     fig = go.Figure()
     
     fig.add_trace(go.Scatter(
-        x=buying_df.index,
-        y=buying_df['Equity'],
+        x=buying_df.index.astype(float),
+        y=buying_df['Equity'].astype(float),
         name='Home Equity',
         fill='tozeroy',
         line=dict(color='#4A4036', width=2)
